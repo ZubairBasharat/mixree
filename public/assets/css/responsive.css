@@ -1,0 +1,398 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width:1400px) {
+    .data-viewer-event .coll-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .data-viewer-event .coll-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 59%;
+        flex: 0 0 59%;
+        max-width: 59%;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .data-viewer-event .coll-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .data-viewer-event .coll-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .data-viewer .col-40 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41%;
+        flex: 0 0 41%;
+        max-width: 41%;
+    }
+    .d-flex8 {
+        display: block !important;
+    }
+    .shedule-box {
+        width: 100%;
+    }
+    .shedule-box-3 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 767px) {
+    /*.avatar-upload-big .avatar-preview{
+        width: 100px;
+        height: 100px;
+    }*/
+    .data-viewer .responsive-section-col-3 {
+        -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 15% !important;
+        flex: 0 0 15% !important;
+        max-width: 15% !important;
+    }
+    .data-viewer .responsive-section {
+        -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 70% !important;
+        flex: 0 0 70% !important;
+        max-width: 70% !important;
+    }
+    .range-sli {
+        width: 100%;
+        height: 11px;
+    }
+    .list-wed-width {
+        width: 100%;
+    }
+    .data-viewer .col-40 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41%;
+        flex: 0 0 41%;
+        max-width: 41%;
+    }
+}
+
+@media screen and (min-height: 1000px) {
+    .signup-inner {
+        height: 615px !important;
+    }
+}
+
+@media screen and (max-height:600px) {
+    .signup-inner {
+        height: 615px !important;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .signup-cols-container {
+        position: relative;
+        height: 100vh;
+    }
+    .signup-img {
+        margin-top: 0px !important;
+    }
+    .signup-logo-inner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50;
+        right: 50;
+        width: 96%;
+        height: 360px;
+        margin: auto;
+    }
+    .signup-inner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50;
+        right: 50;
+        width: 86%;
+        height: 613px;
+        margin: auto;
+    }
+    .login-inner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50;
+        right: 50;
+        width: 86%;
+        height: 416px;
+        margin: auto;
+    }
+    .forget-inner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50;
+        right: 50;
+        width: 86%;
+        height: 305px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .signup-cols .col-md-5 {
+        padding: 50px 50px 50px 50px;
+        background: #f9f9f9;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .radio-btn {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .box-1 {
+        width: 100%;
+        height: 106px;
+        border: 1px solid #7E8084;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin: 21px 0 0 0px;
+    }
+    .signup-cols .col-md-5 {
+        padding: 100px 30px 100px 30px;
+        background: #f9f9f9;
+    }
+    .signup-img {
+        margin-top: 216px;
+        width: 50%;
+        height: auto;
+    }
+    .login-cols .col-md-5 {
+        padding: 225px 30px 100px 30px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header-search {
+        display: inline !important;
+    }
+    .d-inline-flex2 {
+        display: inline !important;
+    }
+    .search-toogle {
+        width: 100%;
+    }
+    .search {
+        display: -webkit-inline-box !important;
+        display: -ms-inline-flexbox !important;
+        display: inline-flex !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .del-btn-icon {
+        height: 408px;
+        background: #EF6553;
+        border-radius: 8px;
+        padding-left: 22px;
+    }
+    .sidenav {
+        width: 0px;
+    }
+    #main {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .table-main {
+        position: relative;
+        overflow: auto;
+        width: 100%;
+    }
+    .welcome {
+        background-position-x: 22% !important;
+    }
+    .table-main table {
+        width: 800px !important;
+    }
+    .del-btn-icon {
+        width: 100%;
+        height: 0px;
+        background: #EF6553;
+        border-radius: 8px;
+        text-align: center;
+        padding: 15px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .signup-cols .col-md-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 45.666667%;
+        max-width: 45.666667%;
+        min-height: 100vh !important;
+    }
+    .signup-cols .col-md-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 54.333333%;
+        max-width: 54.333333%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .btn_preview {
+        width: 150px;
+        height: 50px;
+        font-size: 17px
+    }
+    .btn_next {
+        width: 150px;
+        height: 50px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .search input {
+        width: 250px;
+    }
+    .signup-logo-inner {
+        margin-bottom: 219px;
+    }
+    #customFields-1-ad .checkmark-check {
+        top: -7px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .search input {
+        width: 200px;
+    }
+    .btn_preview {
+        width: 105px;
+        height: 40px;
+    }
+    .btn_next {
+        width: 105px;
+        height: 40px;
+    }
+    .admin-btn {
+        background: transparent;
+        border: none;
+        margin-left: -19px;
+    }
+    .p_wedding_list {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        padding: 3px 14px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .d-flex-l {
+        display: block;
+    }
+    .del-img-1-2 {
+        top: -93%;
+        position: relative;
+        width: 100%;
+        right: -7px;
+    }
+    .res-12 {
+        top: -158%;
+        position: relative;
+        width: 100%;
+        right: -7px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 377px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .signup-cols .col-md-5 {
+        padding: 28px 16px 100px 16px;
+        background: #f9f9f9;
+    }
+    .reset-cols .col-md-5 {
+        padding: 99px 16px 100px 16px;
+        background: #f9f9f9;
+    }
+    .data-viewer-event .coll-4 {
+        -webkit-box-flex: inherit;
+        -ms-flex: inherit;
+        flex: inherit;
+        max-width: inherit;
+    }
+    .data-viewer-event .coll-8 {
+        -webkit-box-flex: inherit;
+        -ms-flex: inherit;
+        flex: inherit;
+        max-width: inherit;
+    }
+    .fashion-image {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1255px) and (min-width: 1147px) {
+    .male-title {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: #FDFDFD;
+        letter-spacing: 2px;
+        height: 38px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+    .dashboard-box {
+        background: #FDFDFD;
+        -webkit-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+        border-radius: 8px;
+        padding-top: 25px;
+        padding-left: 16px;
+        height: 81px;
+    }
+    .bg-das {
+        width: 35px;
+        height: 35px;
+    }
+    .das-head {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        color: #7E8084;
+    }
+    .counter-dash {
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #333333;
+        margin-top: -3px;
+    }
+}

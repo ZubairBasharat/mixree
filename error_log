@@ -1,0 +1,2 @@
+[01-Oct-2020 10:05:46 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home/mixer/public_html/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[01-Oct-2020 11:39:49 UTC] PHP Warning:  Unterminated comment starting line 170 in /home/mixer/public_html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 180

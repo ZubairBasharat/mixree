@@ -1,0 +1,6058 @@
+/**********************
+    Checkbox Start
+    ***********************/
+.circleFont {
+    font-size: 30px !important;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.container-checkbox-3 {
+    display: block;
+    position: relative;
+    padding-left: 44px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#ComboBox {
+    width: 100%;
+    z-index: 99;
+}
+.container-checkbox-3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.container-checkbox-3:hover input ~ .checkmark-3 {
+    background-color: #ccc;
+}
+
+.container-checkbox-3 input:checked ~ .checkmark-3 {
+    background-color: #2196f3;
+}
+
+.checkmark-3:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container-checkbox-3 input:checked ~ .checkmark-3:after {
+    display: block;
+}
+.bridesmaid_btn {
+    background: #ededed;
+    border-radius: 8px;
+    width: 40px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+.bridesmaid_btn_1 {
+    background: #ededed;
+    border-radius: 8px;
+    width: 40px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+.container-checkbox-3 .checkmark-3:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/**********************
+    Checkbox End
+    ***********************/
+
+.login-bg-right {
+    background: linear-gradient(283.08deg, #3a77f6 23.72%, #51b9fc 96.31%);
+}
+
+.signup-img {
+    margin-top: 170px;
+    width: 332px;
+    height: 262px;
+}
+
+.mixrre-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Nunito Sans;
+    color: white;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+
+.mixrre-title1 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.mixrre-titlep {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.mixrre-titlea {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #3a77f6;
+    text-decoration: none;
+}
+
+.mixrre-titlea:hover {
+    text-decoration: none;
+    color: #3a77f6;
+}
+
+.signup-cols .col-md-5 {
+    padding: 100px 136px 100px 102px;
+    background: #f9f9f9;
+}
+
+.login-cols .col-md-5 {
+    padding: 470px 126px 100px 46px;
+}
+
+.login-inputs {
+    margin-top: 10px;
+}
+
+.login-inputs input {
+    height: -webkit-fill-available;
+    background: #ededed;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+}
+
+.login-inputs input::placeholder {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7e8084;
+}
+
+.login-inputs input[type="checkbox"] {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.mt-30px {
+    margin-top: 30px !important;
+}
+
+.mt-38px {
+    margin-top: 38px !important;
+}
+
+.mt-60px {
+    margin-top: 60px;
+}
+
+.login-inputs label {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.signup-btn {
+    background: #faca43;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.signup-btn a {
+    width: 63px;
+    height: 25px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2f3034;
+    letter-spacing: 1px;
+}
+
+.signup-btn img {
+    margin-right: 15px;
+    height: 32px;
+    width: 32px;
+}
+
+.google-btn {
+    background-color: transparent;
+    border: 1px solid #faca43;
+}
+
+.fb-btn {
+    background: #6095fb;
+}
+
+.fb-btn a {
+    color: white;
+    font-size: 16px;
+}
+
+.font-16 {
+    font-size: 16px !important;
+}
+
+.mt-36px {
+    margin-top: 36px;
+}
+
+.forget-mixrre {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #2f3034;
+    z-index: 9;
+}
+
+.forget-select {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.country-btn {
+    background: transparent;
+    border: 1px solid #dcdddf;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 102px;
+    height: 38px;
+}
+
+.flag {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.arrow {
+    width: 6px;
+    height: 4px;
+    margin-left: 5px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.region {
+    width: 102px;
+    min-width: 102px;
+    background: transparent;
+    padding: 3px 0px;
+    margin-top: -2px;
+    border-top: 0px;
+}
+
+.side_bar {
+    background: #3a77f6;
+    padding: 0;
+    width: 395px;
+    position: fixed;
+}
+
+.logo {
+    padding: 40px 40px 63px;
+}
+
+.logo-img {
+    height: 34px;
+    width: 40px;
+}
+
+.logo-txt {
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0 0 0 10px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.nav-img {
+    height: 28px;
+    width: 28px;
+    margin: 11px 0 0 37px;
+}
+
+.nav-txt {
+    margin: 4px 0 0 28px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fdfdfd !important;
+    letter-spacing: 1px;
+}
+
+.logout-tab {
+    margin: 100px 0 0px 0px;
+}
+
+.nav-item {
+    border-left: 4px solid #3a77f6;
+}
+
+.nav-item:hover {
+    border-left: 4px solid white;
+}
+
+.mt-45px {
+    margin-top: 45px;
+}
+
+.mt-40px {
+    margin-top: 40px;
+}
+
+.dashbord-nav .active {
+    border-left: 4px solid white;
+}
+
+.ml-285px {
+    margin-left: 385px;
+}
+/**********************
+    My Events CSS End
+    ***********************/
+
+.sidenav {
+    width: 395px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    height: 100%;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    margin-left: 289px;
+    position: relative;
+    z-index: 9;
+    background: #f9f9f9;
+    border-radius: 13px 0px 0px 13px;
+    position: relative;
+    z-index: 9;
+    width: 100%;
+    padding: 40px;
+    min-height: 100vh;
+}
+/* .open {
+    display: none;
+    float: left;
+    margin-top: 3px;
+} */
+
+.close {
+    float: left;
+    margin-top: 11px;
+}
+
+.search input::placeholder {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #b7babf;
+}
+
+.search input {
+    width: 350px;
+    height: 48px;
+    background: #f1f4f9;
+    border-radius: 12px;
+    border: none;
+    padding: 13px 16px;
+}
+
+.search-btn {
+    height: 48px;
+    width: 48px;
+    margin-left: -48px;
+}
+
+.admin-btn {
+    background: transparent;
+    border: none;
+}
+
+.dp-icon {
+    height: 46px;
+    width: 46px;
+}
+
+.admin-btn span {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2f3034;
+    margin-left: 14px;
+}
+
+.arrow-down {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.help,
+.notif {
+    margin-right: 35px;
+    height: 32px;
+    width: 32px;
+    margin-top: 12px;
+}
+
+.events-title span {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #7e8084;
+    margin-left: 8px;
+}
+.create-events-label {
+    color: rgba(47, 48, 52, 0.76);
+}
+.events-title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2f3034;
+    margin-top: 10px;
+}
+.gray {
+    color: #b7babf !important;
+}
+
+.mt-54px {
+    margin-top: 54px;
+}
+
+.welcome {
+    /*padding-top:28px;*/
+    background-position-x: 119% !important;
+    background-repeat: no-repeat !important;
+}
+
+.welcome-main {
+    background: #e3ebf9;
+    border-radius: 12px;
+    padding: 28px 24px 48px;
+    position: relative;
+    z-index: -1;
+}
+
+.welcome-title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #3a77f6;
+    letter-spacing: 2px;
+}
+
+.welcome-text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #7e8084;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+
+.btn-create-event {
+    width: 149px;
+    height: 48px;
+    background: #faca43;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 0;
+    font-size: 14px;
+}
+/*change */
+
+.plus_icon {
+    width: 14px;
+    margin: -3px 0 0 -3px;
+}
+
+.btn-see-all {
+    width: 77px;
+    height: 30px;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    border: 0;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.icon_next {
+    margin: -1px 0 0 8px;
+}
+
+.mt-27px {
+    margin-top: 27px !important;
+}
+
+.green {
+    background: #47c55b;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.red {
+    background: #ef6553;
+}
+
+.three-dots {
+    width: 4px;
+    height: 20px;
+}
+
+.male {
+    width: 36px;
+    height: 36px;
+}
+
+.male-title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fdfdfd;
+    letter-spacing: 2px;
+    margin-top: 16px;
+    height: 32px;
+}
+
+.male-text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #fdfdfd;
+    letter-spacing: 1px;
+}
+
+.male-text img {
+    margin-right: 8px;
+}
+
+.mt-19px {
+    margin-top: 19px !important;
+}
+
+.mt-15px {
+    margin-top: 15px !important;
+}
+
+.btn-delete {
+    width: 136px;
+    height: 40px;
+    background: #ef6553;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fdfdfd;
+}
+
+.btn-icon-menu {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #dcdddf;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.btn-events-2 {
+    width: 91px;
+    height: 36px;
+    background: #faca43;
+    border-radius: 4px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2f3034;
+}
+
+.close_icon {
+    margin: 0 0 0 15px;
+}
+
+.txt_sorted_by {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #7e8084;
+    margin: 11px 0 0 0;
+}
+
+.span_all {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3a77f6;
+    margin: 11px 0 0 4px;
+}
+
+.span_all a {
+    text-decoration: none;
+}
+/**********************
+    My Events CSS Start
+    ***********************/
+
+.side_bar {
+    background: #3a77f6;
+    width: 395px;
+    height: 100vh;
+    padding: 0;
+}
+
+.logo {
+    padding: 40px 40px;
+}
+
+.logo-img {
+    height: 30px;
+    width: 35px;
+}
+
+.logo-txt {
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0 0 0 10px;
+    color: white;
+}
+/* .nav-img {
+    height: 28px;
+    width: 28px;
+    margin: 11px 0 0 37px;
+} */
+
+.nav-img {
+    height: 20px;
+    width: 20px;
+    margin: 11px 0 0 34px;
+}
+
+.nav-txt {
+    margin: 4px 0 0 21px;
+}
+
+.nav-img-access {
+    height: 28px;
+    width: 28px;
+    margin: 45px 0 0 37px;
+}
+
+.nav-txt-access {
+    margin: 40px 0 0 17px;
+}
+
+.nav-img-event {
+    height: 28px;
+    width: 28px;
+    margin: 45px 0 0 37px;
+}
+
+.nav-txt-event {
+    margin: 40px 0 0 17px;
+}
+
+.nav-img-vendor {
+    height: 28px;
+    width: 28px;
+    margin: 45px 0 0 37px;
+}
+
+.nav-txt-vendor {
+    margin: 40px 0 0 17px;
+}
+
+.logout-tab {
+    margin: 360px 0 0px 0px;
+}
+
+.nav-item:hover {
+    border-left: 4px solid white;
+}
+
+.section {
+    background: #f9f9f9;
+    border-radius: 28px 0px 0px 28px;
+    margin: 0 0 0 -195px;
+}
+
+.btn-create-event {
+    width: 144px;
+    height: 48px;
+    background: #faca43;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 0;
+    margin-top: 60px;
+}
+
+.plus_icon {
+    width: 14px;
+}
+
+.btn-see-all {
+    width: 77px;
+    height: 30px;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    border: 0;
+}
+
+.icon_next {
+    margin: -1 0 0 8px;
+}
+
+.btn-delete {
+    width: 136px;
+    height: 40px;
+    background: #ef6553;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fdfdfd;
+}
+
+.btn-icon-menu {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #dcdddf;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*chnage*/
+
+.btn-events-1 {
+    width: 134px;
+    height: 36px;
+    background: #faca43;
+    border-radius: 4px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2f3034;
+    margin: 0 0 0 12px;
+}
+/*change*/
+
+.btn-events-2 {
+    width: 91px;
+    height: 36px;
+    background: #faca43;
+    border-radius: 4px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2f3034;
+    margin: 0 0 0 12px;
+}
+
+.close_icon {
+    margin: 0 0 0 15px;
+}
+
+.txt_sorted_by {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #7e8084;
+    margin: 11px 0 0 0;
+}
+
+.span_all {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3a77f6;
+    margin: 11px 0 0 4px;
+}
+
+.span_all a {
+    text-decoration: none;
+}
+
+.checkbox_transprant {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #b7babf;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.p_name {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b7babf;
+    margin: 3px 0 0 42px;
+}
+
+.p_participants {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b7babf;
+    margin: 3px 0 0 204px;
+}
+
+.p_event_started {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b7babf;
+    margin: 3px 0 0 67px;
+}
+
+.p_last_modified {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b7babf;
+    margin: 3px 0 0 73px;
+}
+
+.p_vendor {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b7babf;
+    margin: 3px 0 0 40px;
+}
+
+.icon_sorting {
+    margin: 0 0 0 5px;
+}
+
+.tbl_blue {
+    width: 100%;
+    height: 80px;
+    background: #3a77f6;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+}
+
+.tbl_gray {
+    width: 100%;
+    height: 80px;
+    background: rgba(237, 237, 237, 0.6);
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+}
+
+.checkbox_blue_sec {
+    margin: 30px 0 0 15px;
+    width: 24px;
+    height: 24px;
+    background: #fdfdfd;
+    border-radius: 4px;
+}
+
+.img_profile_icon {
+    width: 32px;
+    height: 32px;
+    margin: 0px 12px 0 0px;
+}
+
+.name_profile {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fdfdfd;
+    /*margin: 29px 0 0 13px;*/
+    padding: 24px 0 !important;
+}
+
+.txt_participants {
+    font-family: Nunito Sans;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 14px;
+    color: #fdfdfd;
+    /*margin: 29px 0 0 100px;*/
+    padding: 30px 13px !important;
+}
+
+.txt_event_started {
+    font-family: Nunito Sans;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 14px;
+    color: #fdfdfd;
+    /*margin: 29px 0 0 100px;*/
+    padding: 30px 13px !important;
+}
+
+.txt_last_modified {
+    font-family: Nunito Sans;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 14px;
+    color: #fdfdfd;
+    /*margin: 29px 0 0 100px;*/
+    padding: 30px 13px !important;
+}
+
+.txt_vendor {
+    font-family: Nunito Sans;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 14px;
+    color: #fdfdfd;
+    padding: 30px 13px !important;
+    /*margin: 29px 0 0 100px;*/
+}
+
+.img_dotted {
+    width: 20px;
+    height: 4px;
+    margin: 20px 0 0 0px;
+    cursor: pointer;
+}
+
+.checkbox_main input {
+    height: 20px;
+    width: 20px;
+    margin: 0px 0 0 10px;
+}
+
+.checkbox_transprant_tbl input {
+    height: 24px;
+    width: 24px;
+}
+
+.checkbox_transprant_tbl {
+    padding: 28px 40px 0 20px !important;
+}
+
+.my-tbl-style td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.my-tbl-style td:last-child {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.my-tbl-style {
+    border-spacing: 0 15px;
+    border-collapse: separate;
+}
+
+.container_checkbox {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark-2 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    margin: 8px 0 0 8px;
+    background-color: #dcdddf;
+    border-radius: 5px;
+}
+
+.container_checkbox:hover input ~ .checkmark-2 {
+    background-color: #ccc;
+}
+
+.container_checkbox input:checked ~ .checkmark-2 {
+    background-color: white;
+}
+
+.checkmark-2:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container_checkbox input:checked ~ .checkmark-2:after {
+    display: block;
+}
+
+.container_checkbox .checkmark-2:after {
+    left: 9px;
+    top: 4px;
+    width: 7px;
+    height: 14px;
+    border: solid #2196f3;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*new add*/
+
+.btn_doted_dropdown {
+    background: transparent;
+    border: none;
+}
+
+.dropdown_custem_style {
+    margin: 0 0 0 -118px;
+}
+
+#example_length {
+    display: none;
+}
+
+#example_filter {
+    display: none;
+}
+
+#example_info {
+    display: none;
+}
+
+.my-tbl-style .table td,
+.table th {
+    border-top: none;
+}
+
+.my-tbl-style thead th {
+    vertical-align: top !important;
+    border-bottom: 2px solid #dee2e6;
+}
+/**********************
+    My Events CSS End
+    ***********************/
+/*datatable css */
+
+table {
+    width: 100%;
+}
+
+#example_filter {
+    float: right;
+}
+
+label {
+    display: inline-flex;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #3a77f6;
+    background-color: transparent;
+    border-color: none;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+/**********************
+    My Events CSS Start
+    ***********************/
+/**********************
+My Events CSS Start
+***********************/
+
+.vl {
+    border: 1px solid #dcdddf;
+    width: 2px;
+    height: 117px;
+    margin-top: -23px;
+    margin-left: 13px;
+}
+
+.container-radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: -9px;
+    left: 0;
+    height: 28px;
+    width: 28px;
+    background-color: #b7babf;
+    border-radius: 50%;
+}
+
+.container-radio:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container-radio input:checked ~ .checkmark {
+    background-color: white;
+    border: 1px solid #3a77f6;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container-radio input:checked ~ .checkmark:after {
+    display: block !important;
+}
+
+.container-radio .checkmark:after {
+    top: 3px !important;
+    left: 3px !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background: #3a77f6 !important;
+}
+/**********************
+Create Event CSS start
+***********************/
+
+.head-create-event {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #2f3034;
+}
+
+.head_create_event_2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #3a77f6;
+    margin: 60px 0 0 0px;
+}
+
+.head_detail_ce {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+    margin: 26px 0 0 0;
+}
+
+.img_block {
+    width: 48px;
+    height: 48px;
+}
+
+.box {
+    width: 160px;
+    height: 106px;
+    border: 1px solid #7e8084;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 21px 0 0 30px;
+}
+
+.box-1 {
+    border: 1px solid #7e8084;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 21px 0 0 0px;
+    cursor: pointer;
+}
+
+.p_bloks {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2f3034;
+}
+
+.p_others {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2f3034;
+    margin: 42px 55px 42px 55px;
+}
+
+.birthday_active {
+    background: #3a77f6;
+    border-radius: 8px;
+}
+/**********************
+Create Event CSS End
+***********************/
+
+.event-going {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+
+.count {
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 55px;
+    height: 25px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+
+.add {
+    background: #3a77f6;
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    border: #3a77f6;
+    outline: none;
+    cursor: pointer;
+}
+
+.sub {
+    background: #ededed;
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.radio-btn {
+    margin-left: 183px;
+}
+
+.cancel-btn {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.cross-btn {
+    width: 38px;
+    height: 38px;
+}
+
+.cross-section {
+    margin-top: 37px;
+}
+
+.create-e {
+    margin-left: 92px;
+}
+/**********************
+today
+***********************/
+
+.event-icon {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #7e8084;
+    margin-top: 3px;
+}
+
+.icon-upload {
+    width: 45px;
+    height: 45px;
+    margin-top: 4px;
+}
+
+.mt-26px {
+    margin-top: 26px;
+}
+
+.avatar-upload .avatar-edit {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+.avatar-upload .avatar-edit input {
+    display: block;
+    height: 100%;
+}
+
+.avatar-upload .avatar-edit input + label {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 0;
+    border-radius: 0%;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+    margin-top: 27px;
+}
+
+.avatar-upload .avatar-edit input + label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+.avatar-upload .avatar-edit input + label:after {
+    content: "\f040";
+    font-family: "FontAwesome";
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.avatar-upload .avatar-preview {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input-bg-preview {
+    background: #e0e9fc;
+    border-radius: 8px;
+    padding: 12px 18px;
+    width: 100%;
+}
+
+.lb-start-date {
+    height: 16px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #7e8084;
+}
+
+.input-bg-preview input {
+    background: transparent;
+    border: 0px;
+    width: 100%;
+}
+
+.input-bg-preview input:focus {
+    border: none;
+    outline: none;
+}
+
+.input-bg-preview input::placeholder {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2f3034;
+}
+
+.groom-name {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+    margin-top: 33px;
+}
+
+.mt-16px {
+    margin-top: 16px;
+}
+
+.mt-12px {
+    margin-top: 12px;
+}
+
+.avatar-upload-big .avatar-edit {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+.avatar-upload-big .avatar-edit input {
+    display: none;
+}
+
+.avatar-upload-big .avatar-edit input + label {
+    display: inline-block;
+    width: 156px;
+    height: 120px;
+    margin-bottom: 0;
+    border-radius: 0%;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload-big .avatar-edit input + label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+.avatar-upload-big .avatar-edit input + label:after {
+    content: "\f040";
+    font-family: "FontAwesome";
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.avatar-upload-big .avatar-preview {
+    width: 156px;
+    height: 156px;
+    position: relative;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload-big .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-upload-bride .avatar-edit {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+.avatar-upload-bride .avatar-edit input {
+    display: block;
+}
+
+.avatar-upload-bride .avatar-edit input + label {
+    display: inline-block;
+    width: 156px;
+    height: 156px;
+    margin-bottom: 0;
+    border-radius: 0%;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload-bride .avatar-edit input + label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+.avatar-upload-bride .avatar-edit input + label:after {
+    content: "\f040";
+    font-family: "FontAwesome";
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.avatar-upload-bride .avatar-preview {
+    width: 156px;
+    height: 156px;
+    position: relative;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload-bride .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mt-20px {
+    margin-top: 20px !important;
+}
+
+.cover-pic {
+    background: #7e8084;
+    border-radius: 8px;
+}
+
+.avatar-upload-cover .avatar-edit {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+.avatar-upload-cover .avatar-edit input {
+    display: block;
+}
+
+.avatar-upload-cover .avatar-edit input + label {
+    display: inline-block;
+    width: 100%;
+    height: 156px;
+    margin-bottom: 0;
+    border-radius: 0%;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload-cover .avatar-edit input + label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+.avatar-upload-cover .avatar-edit input + label:after {
+    content: "\f040";
+    font-family: "FontAwesome";
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.avatar-upload-cover .avatar-preview {
+    width: 100%;
+    height: 156px;
+    position: relative;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload-cover .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/******************
+awasi***************/
+
+.event-going {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2f3034;
+}
+
+.count {
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 55px;
+    height: 25px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+
+.add {
+    background: #3a77f6;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    border: #3a77f6;
+    outline: none;
+    border: none;
+    color: white !important;
+}
+
+.sub {
+    background: #ededed;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.radio-btn {
+    margin-left: 183px;
+}
+
+.cancel-btn {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.cross-section {
+    margin-top: 37px;
+}
+
+.create-e {
+    margin-left: 92px;
+}
+
+.frt {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 22px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2f3034;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.input-bg {
+    height: 82px;
+    background: #e0e9fc;
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: -13px;
+}
+
+.add-on {
+    float: right;
+    font-size: 34px;
+    margin-top: -48px;
+    margin-right: 20px;
+}
+
+@keyframes click-wave {
+    0% {
+        height: 40px;
+        width: 40px;
+        opacity: 0.35;
+        position: relative;
+    }
+    100% {
+        height: 200px;
+        width: 200px;
+        margin-left: -80px;
+        margin-top: -80px;
+        opacity: 0;
+    }
+}
+
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: -2px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+}
+
+.option-input:hover {
+    background: #9faab7;
+}
+
+.option-input:checked {
+    background: #3a77f6;
+}
+
+.option-input:checked::before {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    content: "✔";
+    text-align: center !important;
+    display: inline-block;
+    font-size: 18.66667px;
+    left: -5px;
+}
+
+.option-input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #3a77f6;
+    content: "";
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.option-input.radio {
+    border-radius: 50%;
+}
+
+.option-input.radio::after {
+    border-radius: 50%;
+}
+
+.tog-radio-label {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+    margin-top: 1px;
+}
+
+.add-1 {
+    background: #3a77f6;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    border: #3a77f6;
+    outline: none;
+    border: none;
+    color: white !important;
+    cursor: pointer;
+}
+
+.sub-1 {
+    background: #ededed;
+    border-radius: 8px;
+    width: 40px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+
+.frt:focus {
+    border: none;
+    outline: none;
+}
+
+.append-section {
+    margin-top: 40px;
+}
+/*create event css buttton*/
+
+.btn_preview {
+    background: transparent;
+    width: 212px;
+    height: 57px;
+    border: 1px solid #3a77f6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3a77f6;
+    cursor: pointer;
+}
+
+.btn_next {
+    width: 212px;
+    height: 57px;
+    background: #faca43;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2f3034;
+    cursor: pointer;
+}
+
+.mt-80px {
+    margin-top: 80px;
+}
+
+.mb-60px {
+    margin-bottom: 60px;
+}
+/**********************
+Natasha Wedding Model CSS Start
+***********************/
+
+.my_model {
+    width: 377px;
+    border-radius: 16px 16px 15px 15px;
+}
+
+.model_heading {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.section_white {
+    height: auto;
+    width: 375px;
+    border: 1px solid white;
+    background: white;
+    margin: 0px 0 0 0;
+    border-radius: 0 0 15px 15px;
+}
+
+.p_model_detail {
+    font-family: Nunito Sans;
+    font-style: normal;
+    margin: 20px 20px 0 20px;
+}
+
+.div_date_time {
+    margin: 30px 20px 0 20px;
+}
+
+.p_date_time {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 0 0 0;
+}
+
+.p_crunnet_date {
+    font-family: Nunito Sans;
+    font-style: normal;
+}
+
+.div_location {
+    margin: 30px 20px 0 20px;
+}
+
+.p_chruch_loc {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 0 0 0;
+}
+
+.p_crunnet_loc {
+    font-family: Nunito Sans;
+    font-style: normal;
+}
+
+.img_chruch_location {
+    height: 166px;
+    width: 333px;
+}
+
+.p_crunnet_loc2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    margin: 18px 0 10px 0;
+}
+
+.p_bride {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.div_bride {
+    margin: 30px 20px 0 20px;
+}
+
+.bride_sec_1 {
+    height: 200px;
+    width: 166px;
+}
+
+.img_bride_1 {
+    height: 160px;
+    width: 160px;
+    margin: 0px 0 10px 15px;
+    border-radius: 5px;
+}
+
+.img_bride_2 {
+    height: 160px;
+    width: 160px;
+    margin: 0px 0 10px 7px;
+    border-radius: 5px;
+}
+
+.bottom_nav {
+    background-image: url("../imgs/nav-bar.png");
+    height: 69px;
+    width: 374px;
+    border: 1px solid white;
+    border-radius: 0 0 15px 15px;
+}
+/**********************
+Natasha Wedding Model CSS End
+***********************/
+/**********************
+append section in create event preview
+***********************/
+
+.add-preview {
+    background: #ededed;
+    border-radius: 8px;
+    width: 40px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+
+.sub-preview {
+    background: #ededed;
+    border-radius: 8px;
+    width: 40px;
+    border: none;
+    height: 40px;
+}
+
+.end-btn {
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.recent {
+    background-color: #3a77f6 !important;
+}
+
+.recent:hover {
+    background-color: #3a77f6 !important;
+}
+
+#event-description {
+    background: transparent;
+    border: none;
+    resize: none;
+}
+
+#event-description:focus {
+    outline: none !important;
+}
+
+.btn_preview_main {
+    border-color: #3a77f6 !important;
+}
+
+.add-preview {
+    background: #ededed;
+    border-radius: 8px;
+    width: 40px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+
+.sub-preview {
+    background: #ededed;
+    border-radius: 8px;
+    width: 40px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+
+.end-btn {
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.recent {
+    background-color: #3a77f6 !important;
+}
+
+.recent:hover {
+    background-color: #3a77f6 !important;
+}
+
+#event-description {
+    background: transparent;
+    border: none;
+    resize: none;
+}
+
+#event-description:focus {
+    outline: none !important;
+}
+
+.btn_preview_main {
+    border-color: #3a77f6 !important;
+}
+
+.Credit-card {
+    width: 139px;
+    height: 50px;
+    background: #fdfdfd;
+    /* border: 1px solid #3a77f6; */
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.credit-c {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+
+.new-plac input::placeholder {
+    font-family: Nunito Sans;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    letter-spacing: 0.02em !important;
+    color: #7e8084;
+}
+
+.new-plac {
+    padding: 24px 18px !important;
+}
+
+.add-div-on {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+    text-align: center;
+}
+
+.add-div-on {
+    text-decoration: none !important;
+    color: #2f3034 !important;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.head_detail_ce-1 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+    margin: 40px 0 0 0;
+}
+
+.head_detail_ce-1-12 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+
+.head_detail_ce-1-double {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+
+.head_detail_ce-2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+    margin: 40px 0 0 0;
+}
+
+.head_detail_ce-2-1 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+/**********************
+  Natasha Wedding Gifts Model CSS Start
+***********************/
+
+.img_back_gift {
+    /* background-image: url('../imgs//beer-glass.jpg'); */
+    height: 280px;
+    width: 375px;
+    border-radius: 16px 16px 0 0;
+    background-size: cover;
+}
+
+.section_white_gift {
+    height: auto;
+    width: 375px;
+    border: 1px solid white;
+    background: white;
+    margin: 0px 0 0 0;
+    border-radius: 0 0 15px 15px;
+}
+
+.p_model_detail_gift {
+    font-family: Nunito Sans;
+    font-style: normal;
+    margin: 20px 20px 0 20px;
+}
+
+.div_gift_hony_moon {
+    margin: 30px 20px 0 20px;
+}
+
+.p_gift_hony_moon {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 0 0 0;
+}
+
+.div_gift_sec {
+    margin: 15px 20px 0 20px;
+}
+
+.gift_img {
+    height: 40px;
+    width: 40px;
+}
+
+.p_gift_prize {
+    margin: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.p_gift_amount {
+    font-size: 11px;
+    color: #9e9fa2;
+}
+
+.img_seek_bar {
+    width: 374px;
+    height: 55px;
+}
+
+.btn_send_gift {
+    width: 341px;
+    height: 55px;
+    background: #faca43;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    margin: 8px 0 0 16px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.div_wedding_registry {
+    margin: 30px 20px 0 20px;
+}
+
+.p_wedding_regis {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.list_wedding {
+    width: 341px;
+    height: 55px;
+    background: #fdfdfd;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+}
+
+.p_wedding_list {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    padding: 16px 14px;
+}
+
+.div_icon_expand {
+    width: 100px;
+    border: 1px solid;
+}
+
+.icon_expand {
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin: 15px 0 0 0px;
+}
+
+.head_natasha {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.img_back {
+    background-image: url("../imgs/beer-glass.jpg");
+    width: 375px;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0 0;
+    background-size: cover;
+}
+
+.img_mobile {
+    width: 375px;
+    margin: -3px 0 0 0px;
+    border-radius: 16px 13px 0 0;
+}
+
+.img_information_nav {
+    width: 375px;
+    margin: 151px 0 0 0;
+    border-radius: 20px 20px 0px 0;
+}
+/**********************
+  Natasha Wedding Gifts Model CSS End
+***********************/
+/**********************
+  for fashion avatar
+***********************/
+
+.preview-1 {
+    width: 133px !important;
+    height: 132px !important;
+    position: relative;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.frt-1 {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2f3034;
+}
+
+.del-img {
+    width: 64px;
+    position: absolute;
+    border-radius: 8px;
+    bottom: 0;
+}
+/* today */
+
+.end-add {
+    background: #e0e9fc !important;
+    border: 1px dashed #2f3034 !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+    padding: 21px;
+    text-align: center;
+    cursor: pointer;
+}
+/**********************
+  Natasha Wedding event information Model CSS start
+***********************/
+
+.img_mobile_product {
+    width: 468px;
+    margin: 0px 0 0 0px;
+    border-radius: 20px 20px 0 0;
+}
+
+.img_information_nav_product {
+    width: 374x;
+    margin: 157px 0 0 0;
+    border-radius: 20px 20px 0px 0;
+    position: relative;
+}
+
+.img_back_product {
+    /* background-image: url(../imgs/beer-glass.jpg); */
+    height: 283px;
+    width: 374px;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0 0;
+    background-size: cover;
+}
+
+.border_radius {
+    border-radius: 20px;
+    width: 377px;
+}
+
+.alert_div {
+    margin: 15px 20px 0 20px;
+    height: 55px;
+    width: 335px;
+    margin: 40px 20px 0 20px;
+    background: #ef6553;
+}
+
+.img_error {
+    height: 24px;
+    width: 24px;
+    margin: 3px 0 0 0;
+}
+
+.p_error {
+    margin-top: 8px;
+    margin: 5px 0 0 12px;
+    color: white;
+    font-size: 14px;
+}
+
+.div_products {
+    margin: 30px 20px 0 20px;
+    height: auto;
+    overflow-y: scroll;
+}
+
+.img_product {
+    height: 160px;
+    width: 100%;
+    margin: 0px 0 10px 0px;
+    border-radius: 5px;
+}
+
+.bottom_nav_event_fashion {
+    background-image: url("../imgs/nav-bar.png");
+    height: 69px;
+    width: 374px;
+    border: 1px solid white;
+    border-radius: 0 0 15px 15px;
+}
+
+.product_name {
+    margin: 0 0 5px 0px;
+    color: #c4c7ca;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.p_product_prize {
+    margin: 0 0 0 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.p_product_buyNow {
+    margin: 4px 0 0 25px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    color: #3a77f6;
+    font-size: 15px;
+}
+
+.bottom_nav_product {
+    background-image: url(../imgs/nav-bar.png);
+    height: 80px;
+    width: 374px;
+    border: 1px solid white;
+    border-radius: 0 0 15px 15px;
+}
+
+.preview-1 {
+    width: 133px !important;
+    height: 132px !important;
+    position: relative;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.frt-1 {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2f3034;
+}
+
+.end-add {
+    background: #e0e9fc !important;
+    border: 1px dashed #2f3034 !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+    padding: 21px;
+    text-align: center;
+}
+/**********************
+Natasha Wedding event information Model CSS start
+***********************/
+
+.img_mobile_product {
+    width: 468px;
+    margin: 0px 0 0 0px;
+    border-radius: 20px 20px 0 0;
+}
+
+.img_information_nav_product {
+    width: 374px;
+    margin: 157px 0 0 0;
+    border-radius: 20px 20px 0px 0;
+}
+
+.img_back_product {
+    /* background-image: url(../imgs/beer-glass.jpg); */
+    height: 283px;
+    width: 374px;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0 0;
+}
+
+.border_radius {
+    border-radius: 20px;
+}
+
+.alert_div {
+    margin: 15px 20px 0 20px;
+    height: 55px;
+    width: 335px;
+    margin: 40px 20px 0 20px;
+    background: #ef6553;
+}
+
+.img_error {
+    height: 24px;
+    width: 24px;
+    margin: 3px 0 0 0;
+}
+
+.p_error {
+    margin-top: 8px;
+    margin: 5px 0 0 12px;
+    color: white;
+    font-size: 14px;
+}
+
+.div_products {
+    margin: 30px 20px 0 20px;
+    overflow-y: scroll;
+}
+
+.img_product {
+    height: 160px;
+    width: 100%;
+    margin: 0px 0 10px 0px;
+    border-radius: 5px;
+}
+
+.bottom_nav_event_fashion {
+    background-image: url("../imgs/nav-bar.png");
+    height: 69px;
+    width: 374px;
+    border: 1px solid white;
+    border-radius: 0 0 15px 15px;
+}
+
+.product_name {
+    margin: 0 0 5px 0px;
+    color: #c4c7ca;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.p_product_prize {
+    margin: 0 0 0 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.p_product_buyNow {
+    margin: 4px 0 0 25px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    color: #3a77f6;
+    font-size: 15px;
+}
+
+.bottom_nav_product {
+    background-image: url(../imgs/nav-bar.png);
+    height: 80px;
+    width: 374px;
+    border: 1px solid white;
+    border-radius: 0 0 15px 15px;
+}
+
+#event-description:focus {
+    outline: none !important;
+}
+/**********************
+for inputs
+***********************/
+
+.material-dropdown {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background: #ffffff;
+    color: #000000;
+    z-index: 1000;
+    transition: 0.2s ease-in height, step-end box-shadow 0.2s;
+    -moz-transition: 0.2s ease-in height, step-end box-shadow 0.2s;
+    -webkit-transition: 0.2s ease-in height, step-end box-shadow 0.2s;
+}
+
+.material-dropdown.material-dropdown-open {
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.material-dropdown li {
+    padding: 10px;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.material-dropdown li:hover {
+    background-color: #e8eaf6;
+}
+
+.material-dropdown li.material-dropdown-selected {
+    background-color: #9fa8da;
+}
+
+.material-form-field {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    color: #000000;
+    padding: 17px 0 0px 0;
+}
+
+.material-form-field::after {
+    content: "\00A0";
+    display: block;
+    color: #d50000;
+    font-size: 12px;
+}
+
+.material-form-field .material-form-field-label {
+    position: absolute;
+    display: block;
+    top: 29px;
+    left: 0px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    pointer-events: none;
+    cursor: text;
+}
+
+.material-form-field input {
+    padding: 10px 0 2px 0;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+
+.material-form-field input:invalid {
+    outline: none;
+    box-shadow: none;
+}
+
+.material-form-field input:valid ~ .material-form-field-label,
+.material-form-field input:focus ~ .material-form-field-label {
+    top: 10px;
+    font-size: 12px;
+}
+
+.material-form-field select:valid ~ .material-form-field-label,
+.material-form-field select:focus ~ .material-form-field-label {
+    top: 10px;
+    font-size: 12px;
+}
+
+.material-form-field input:focus {
+    outline: none;
+    color: #2f3034;
+    border-bottom-color: #2f3034;
+}
+
+.material-form-field select:focus {
+    outline: none;
+    color: #7e8084;
+    border-bottom-color: #7e8084;
+}
+
+.material-form-field input:focus ~ .material-form-field-label {
+    color: #7e8084;
+}
+
+.material-form-field input:focus ~ .material-dropdown {
+    /*
+If you want to animate this you will need to use some js to calculate it
+Optionally, you can simply display:block/none
+*/
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease-out height, step-start box-shadow 0.2s;
+    -moz-transition: 0.2s ease-out height, step-start box-shadow 0.2s;
+    -webkit-transition: 0.2s ease-out height, step-start box-shadow 0.2s;
+}
+
+.material-form-field.material-form-field-invalid {
+    color: #d50000;
+}
+
+.material-form-field.material-form-field-invalid::after {
+    content: attr(data-validationError);
+}
+
+.material-form-field.material-form-field-invalid
+    input:focus
+    ~ .material-form-field-label {
+    color: #d50000;
+}
+
+.frt-1:focus {
+    outline: none !important;
+}
+
+.del-img {
+    top: 46%;
+    position: relative;
+    width: 20px;
+    height: 24px;
+}
+
+.btn_preview:focus {
+    outline: none;
+}
+
+.btn_next:focus {
+    outline: none;
+}
+
+.del-btn-icon {
+    height: 320px;
+    background: #ef6553;
+    border-radius: 8px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+.del-btn-dresscode {
+    height: 132px;
+    background: #ef6553;
+    border-radius: 5px;
+    /* padding-left: 7px; */
+    text-align: center;
+    cursor: pointer;
+}
+.del-btn-dresscode .del-img {
+    top: 42% !important;
+}
+.radio-btn-1 {
+    display: flex !important;
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+
+.btn-radi0-style {
+    display: flex;
+    width: 100% !important;
+}
+
+.ml-23px {
+    margin-left: 26px;
+}
+.table-condensed .prev,
+.table-condensed .next,
+.table-condensed .switch {
+    visibility: hidden;
+}
+.button-radio {
+    width: 160px;
+    float: right;
+}
+/* The container checkbox all*/
+
+.container_checkbox_all {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container_checkbox_all input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark_all {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid #b7babf;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.container_checkbox_all:hover input ~ .checkmark_all {
+    background-color: #ccc;
+}
+
+.container_checkbox_all input:checked ~ .checkmark_all {
+    background-color: #2196f3;
+}
+
+.checkmark_all:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container_checkbox_all input:checked ~ .checkmark_all:after {
+    display: block;
+}
+
+.container_checkbox_all .checkmark_all:after {
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.my-tbl-style td,
+.my-tbl-style th {
+    border-top: none !important;
+}
+/* my work */
+
+.vl-2 {
+    border: 1px solid #dcdddf;
+    width: 117px;
+    height: 2px;
+    margin-top: 13px;
+    margin-left: -11px;
+}
+/*new add css*/
+
+.custem_doted {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-top: 8px;
+    width: 20px;
+}
+
+.color-black {
+    color: black;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.mt-10px {
+    margin-top: 5px;
+}
+
+.dashboard-box {
+    background: #fdfdfd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-left: 16px;
+    height: 100px;
+}
+
+.das-head {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #7e8084;
+}
+
+.counter-dash {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #333333;
+    margin-top: -3px;
+}
+
+.bg-das {
+    width: 40px;
+    height: 40px;
+}
+
+.bt-right-counter {
+    text-align: right;
+}
+
+.del-img-1 {
+    top: 25%;
+    position: relative;
+    width: 100%;
+}
+
+.del-img-2 {
+    top: 25%;
+    position: relative;
+    width: 100%;
+}
+
+.staff-name {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #2f3034;
+}
+
+.width-70 {
+    width: 261px;
+}
+
+.staff-modal-label {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #b7babf;
+}
+
+.bootstrap-tagsinput .tag {
+    margin-right: 2px !important;
+    font-family: Nunito Sans !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    color: #2f3034 !important;
+}
+
+.input-tags {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.label-info {
+    padding: 5px;
+    width: 117px;
+    background: rgba(237, 237, 237, 0.6);
+    border-radius: 8px;
+    height: 33px;
+}
+
+.custem_doted {
+    margin-top: 16px;
+}
+
+.grid {
+    margin-top: 1rem;
+    -webkit-columns: 20rem;
+    -moz-columns: 20rem;
+    columns: 20rem;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.grid .thumb-img:hover {
+    opacity: 0.5;
+}
+/* input[type="radio"] {
+    display: none;
+} */
+/* The CSS that matters for the filter */
+/*
+input[type="radio"] {
+    display: none;
+} */
+
+input[type="radio"][id="reset"]:checked + label {
+    background: #ffca28;
+    color: white;
+}
+
+input[type="radio"][id="architecture"]:checked + label {
+    background: #29b6f6;
+    color: white;
+}
+
+input[type="radio"][id="architecture"]:checked ~ .grid .landscape,
+input[type="radio"][id="architecture"]:checked ~ .grid .people {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+input[type="radio"][id="landscape"]:checked + label {
+    background: #26a69a;
+    color: white;
+}
+
+input[type="radio"][id="landscape"]:checked ~ .grid .architecture,
+input[type="radio"][id="landscape"]:checked ~ .grid .people {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+input[type="radio"][id="people"]:checked + label {
+    background: #ec407a;
+    color: white;
+}
+
+input[type="radio"][id="people"]:checked ~ .grid .architecture,
+input[type="radio"][id="people"]:checked ~ .grid .landscape {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+.tile {
+    display: inline-block;
+    margin: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 1rem 0.5rem;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.tile img {
+    width: 100%;
+    vertical-align: middle;
+}
+/* The CSS that matters for the lightbox */
+
+.lightbox {
+    display: none;
+    position: fixed !important;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.lightbox:target {
+    outline: none;
+    display: block;
+}
+
+a.lightbox:hover {
+    cursor: default;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.container-1 {
+    width: 100%;
+}
+
+.modal-border {
+    border-radius: 16px;
+    border: none;
+}
+
+.modal-size {
+    max-width: 718px !important;
+}
+
+.box-modal-admin {
+    width: 365px;
+    background: #fdfdfd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+.modal-search-btn {
+    height: 30px;
+    width: 29px;
+    margin-left: 325px;
+    margin-top: -76px;
+}
+
+.bootstrap-tagsinput {
+    padding: 0px !important;
+}
+
+.modal-backdrop {
+    z-index: 0 !important;
+}
+
+.search-modal input {
+    width: 350px !important;
+    height: 48px;
+    background: #f1f4f9;
+    border-radius: 12px;
+    border: none;
+    padding: 13px 16px;
+}
+
+.bootstrap-tagsinput input {
+    background: #fdfdfd;
+    border-radius: 16px 16px 0px 0px;
+    border: 0px !important;
+}
+
+.checkmark_all--1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid #b7babf;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.container_checkbox_all:hover input ~ .checkmark_all-1 {
+    background-color: #ccc;
+}
+
+.container_checkbox_all input:checked ~ .checkmark_all-1 {
+    background-color: #2196f3;
+}
+
+.checkmark_all-1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container_checkbox_all input:checked ~ .checkmark_all-1:after {
+    display: block;
+}
+
+.container_checkbox_all .checkmark_all-1:after {
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.width-60 {
+    margin: auto;
+    width: 365px !important;
+}
+
+.bootstrap-tagsinput {
+    border: 1px solid rgba(220, 221, 223, 0.5) !important;
+}
+
+.bootstrap-tagsinput input {
+    width: 365px !important;
+}
+
+.search-admin-mo input {
+    width: 365px !important;
+    height: 48px;
+    background: #f1f4f9;
+    border: none;
+    padding: 13px 16px;
+}
+
+.btn_next-modal {
+    width: 143px;
+    height: 57px;
+    background: #faca43;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2f3034;
+    cursor: pointer;
+}
+
+.btn_preview-modal {
+    background: transparent;
+    width: 143px;
+    height: 57px;
+    border: 1px solid #ef6553;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ef6553;
+    cursor: pointer;
+}
+
+.modal-border-8 {
+    border-radius: 16px;
+    border: none;
+}
+
+.mb-20px {
+    margin-bottom: 20px;
+}
+/* talha css */
+
+.natasha-title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2f3034;
+    margin-top: 10px;
+}
+
+.tabs_head {
+    background: #fdfdfd;
+    border-radius: 8px;
+}
+
+.tabs_head .nav-item {
+    border-left: none;
+}
+
+.icon_tab {
+    width: 24px;
+    height: 24px;
+    margin: 8px 0 0 17px;
+}
+
+.item_nav_active {
+    width: 180px;
+    background: #3a77f6;
+    border-radius: 4px;
+}
+
+.item_nav_active a {
+    color: white !important;
+}
+.tabs_head li {
+    width: 25% !important;
+    padding: 5px;
+}
+/* .item_nav_disable {
+    margin: 14px 0 0 35px;
+} */
+
+.tabs_head li:hover {
+    background: #3a77f6;
+    border-radius: 4px;
+    padding: 5px;
+}
+.tabs_head li:hover > a {
+    color: white;
+}
+.tabs_head li a {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #b7babf;
+}
+
+.img_slide {
+    margin: 52px 0 0 0;
+    width: 100%;
+}
+
+.div_wedding {
+    margin: 25px 0 0 0;
+}
+
+.div_wedding img {
+    width: 52px;
+    height: 52px;
+}
+
+.div_wedding p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(47, 48, 52, 0.76);
+    margin: 0;
+}
+
+.div_wedding h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2f3034;
+}
+
+.div_detail {
+    margin: 0 0 0 16px;
+}
+
+.div_modified {
+    margin: 25px 0 0 0;
+}
+
+.div_modified p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(47, 48, 52, 0.76);
+    margin: 0;
+}
+
+.div_modified h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2f3034;
+}
+
+.div_vendor {
+    margin: 25px 0 0 0;
+}
+
+.div_vendor p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(47, 48, 52, 0.76);
+    margin: 0;
+}
+
+.div_vendor h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2f3034;
+}
+
+.div_btn_edit {
+    margin: 25px 0 0 0;
+}
+
+.btn-edit-details {
+    width: 149px;
+    height: 48px;
+    background: #faca43;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 0;
+}
+
+.edit_icon {
+    height: 18px;
+    width: 18px;
+    margin: 0 8px 0 0;
+}
+
+.p_wed_detail {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2f3034;
+}
+
+.p_people {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.div_total_guest {
+    width: 170px;
+    height: 64px;
+    background: #fdfdfd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+}
+/* today work */
+
+.create-box {
+    background: #fdfdfd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-left: 10px;
+    height: 58px;
+    width: 155px;
+    margin-right: 15px;
+}
+
+.bg-create {
+    width: 31px;
+    height: 31px;
+}
+
+.create-head {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(47, 48, 52, 0.76);
+    font-weight: 600;
+}
+
+.create-dash {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 1px;
+    color: #2f3034;
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 40px;
+    margin: 4px;
+}
+
+.user-number {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2f3034;
+    margin-top: 8px;
+    margin-left: 11px;
+}
+
+.mb-12px {
+    margin-bottom: 12px !important;
+}
+
+.shedule-box {
+    border: 1px solid #dcdddf;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.shedule-box-1 {
+    border: 1px solid #dcdddf;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.heading-shedule {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.heading-shedule {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.shedule-date {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2f3034;
+}
+
+.imag-shedule {
+    margin-top: 6px;
+}
+
+.location-box {
+    border: 1px solid #dcdddf;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.address {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.location-head {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.mt-16px {
+    margin-top: 16px;
+}
+
+.total-donation {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.see-details {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3a77f6;
+    text-align: end;
+}
+
+.circlewithbg {
+    border-radius: 50%;
+    background: #faca43;
+    width: 61px;
+    height: 61px;
+}
+
+.taer-bg {
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+.circlewithbg-navy {
+    border-radius: 50%;
+    background: #3a77f6;
+    width: 61px;
+    height: 61px;
+}
+
+.price-details {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+
+.price-text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #7e8084;
+}
+
+.fashion-box {
+    background: #fdfdfd;
+    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.fashion-image {
+    background: #f3f2ee;
+    opacity: 0.8;
+    border-radius: 8px;
+    width: 113px;
+    height: 113px;
+    padding: 5px;
+}
+
+.total-donation-09 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2f3034;
+}
+
+.see-details-09 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #3a77f6;
+    text-align: end;
+}
+
+.fashion-par {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #2f3034;
+    opacity: 0.65;
+    line-height: 17px;
+}
+
+.text-fashion {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #ef6553;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.range-sli {
+    width: 100%;
+}
+
+.w-registry {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.registry-box {
+    background: #fdfdfd;
+    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+}
+
+.list-wed-width {
+    width: 100%;
+}
+
+.wed-text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.mt-12px {
+    margin-top: 12px;
+}
+
+.d-flex8 {
+    display: flex;
+}
+
+.sort-select {
+    background: transparent !important;
+}
+
+.text-end-sort {
+    text-align: end;
+}
+
+.sort-di {
+    text-align: end;
+}
+
+.right-side-sidebar {
+    background: #f3f5f9;
+    border-radius: 28px;
+    padding: 20px;
+    height: 100%;
+    padding-top: 90px;
+    bottom: 0;
+    top: 0px;
+    position: fixed;
+    width: 379px;
+    overflow: auto;
+}
+
+.jion-table-date {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    color: #2f3034;
+    margin-left: 52px;
+}
+
+.dp-icon-12 {
+    width: 69px;
+    height: 69px;
+}
+
+.sidenav-right {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav-right a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#main {
+    transition: 0.5s;
+    padding: 40px;
+}
+
+.slideBtn {
+    transition: 0.5s;
+    right: 0;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.top-head-se {
+    position: absolute;
+    width: 96%;
+    z-index: 9;
+}
+
+.tbl_gray-ac {
+    /* width: 100%; */
+    /* height: 80px; */
+    background: rgba(237, 237, 237, 0.6);
+    /* box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04); */
+    border-radius: 12px;
+}
+
+.account-tr {
+    background: #c9d9f8;
+}
+
+.my-tbl-style td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 12px;
+}
+
+.p_name {
+    padding: 12px !important;
+}
+
+.mt-140px {
+    margin-top: 140px;
+}
+
+.sort-select {
+    max-width: 100px !important;
+}
+
+.th-admin-head {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #2f3034;
+}
+
+.lcb-padding {
+    padding: 15px !important;
+}
+
+.btn-delete a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-delete a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-delete :hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-delete {
+    color: white;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+.d-flex-l {
+    display: flex;
+}
+
+.d-inline-flex1 {
+    display: inline-flex;
+}
+
+.d-inline-flex2 {
+    display: inline-flex;
+}
+
+.tabe-sections .nav-tabs .nav-link.active {
+    border: 1px solid #3a77f6 !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    color: #3a77f6;
+    padding: 15px 32px !important;
+}
+
+.tabe-sections .nav-tabs .nav-link.active:hover {
+    background: #3a77f6;
+    border-radius: 8px;
+    padding: 15px 32px !important;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #fdfdfd;
+}
+
+.tabe-sections .nav-tabs .nav-link:hover {
+    background: #3a77f6;
+    border-radius: 8px;
+    padding: 15px 32px !important;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #fdfdfd;
+}
+
+.tabe-sections .nav-tabs .nav-link {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #b7babf;
+    padding: 15px 32px !important;
+}
+
+.tabe-sections .nav-tabs .srt {
+    border: none;
+    margin-right: 28px;
+}
+
+.input-bg-preview-white {
+    background: #fdfdfd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 12px 18px;
+    width: 100%;
+}
+
+.input-bg-preview-white input {
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+.input-bg-preview-white input:focus {
+    outline: none;
+}
+
+.end-add-bg-0 {
+    background: #ededed;
+    border: 1px dashed #2f3034;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+    padding: 21px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.del-img-1-2 {
+    top: 36%;
+    position: relative;
+    width: 100%;
+    right: 8px;
+}
+
+.head_detail_ce-1-099 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #7e8084;
+    margin: 44px 0 0 0;
+}
+
+.input-bg-preview-ex-padding {
+    background: #e0e9fc;
+    border-radius: 8px;
+    padding: 21px 18px;
+    width: 100%;
+}
+
+.input-bg-preview-ex-padding input {
+    background: transparent;
+    width: 100%;
+    border: none;
+}
+
+.input-bg-preview-ex-padding input:focus {
+    outline: none;
+}
+
+.del-img-1-09 {
+    top: 0%;
+    position: relative;
+    width: 100%;
+}
+
+.btn-create-event:focus {
+    outline: none;
+}
+
+.btn-create-event {
+    cursor: pointer;
+}
+
+a .cancel-btn {
+    text-decoration: none;
+    color: #000000;
+}
+
+a .cancel-btn:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.cross-section a {
+    text-decoration: none;
+}
+
+.signup-btn:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.d-inline-flex1-1 {
+    display: inline-flex;
+}
+
+.ps-ab {
+    position: absolute;
+    width: 96%;
+    z-index: 9;
+}
+
+.tb-pad {
+    padding: 23px !important;
+}
+
+header {
+    font-family: "Lobster", cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.scrollbar {
+    float: left;
+    height: 96vh;
+    width: 287px;
+    background: transparent;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+    border: none;
+    margin-top: 12px;
+    scrollbar-color: #fff transparent;
+}
+
+#style-3::-webkit-scrollbar-track {
+    -webkit-box-shadow: transparent;
+    background-color: transparent;
+    border-radius: 12px;
+    scrollbar-color: #fff transparent;
+}
+
+#style-3::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+    border-radius: 12px;
+    scrollbar-color: #fff transparent;
+}
+
+#style-3::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    scrollbar-color: #fff transparent;
+    border-radius: 12px;
+}
+
+html {
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-color: #3a77f6 #fff;
+    scrollbar-width: 4px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+/* Optional: show position indicator in red */
+
+::-webkit-scrollbar-thumb {
+    background: #3a77f6;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.scroller::-webkit-scrollbar {
+    width: 3px;
+}
+
+.scroller::-webkit-scrollbar-track {
+    background: #3a77f6;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+    background: #7f7f7f;
+    border-right: 1px solid white;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.nav-txt {
+    width: 100%;
+}
+
+.user-input-wrp {
+    position: relative;
+    width: 50%;
+}
+
+.user-input-wrp .inputText {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #777;
+    box-shadow: none !important;
+    padding-left: 20px;
+}
+
+.user-input-wrp .inputText:focus {
+    border-color: blue;
+    border-width: medium medium 2px;
+}
+
+.user-input-wrp .floating-label {
+    position: absolute;
+    pointer-events: none;
+    top: 30px;
+    left: 10px;
+    transition: 0.2s ease all;
+}
+
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label {
+    top: 0px;
+    left: 10px;
+    padding-left: 20px;
+}
+
+.form-signup {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+    padding-left: 20px;
+    color: #7e8084;
+}
+
+.form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::placeholder {
+    color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+    /* padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (3 / 3)); */
+    /* padding-bottom: calc(var(--input-padding-y) / 3); */
+    padding-top: 28px;
+    padding-left: 20px;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+}
+
+.paginate_button {
+    cursor: pointer;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3a77f6 transparent;
+}
+/* taday css */
+
+.inbox_people {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    border-right: 1px solid #c4c4c4;
+}
+
+.inbox_msg {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+}
+
+.top_spac {
+    margin: 20px 0 0;
+}
+
+.recent_heading {
+    float: left;
+    width: 40%;
+}
+
+.srch_bar {
+    display: inline-block;
+    text-align: right;
+    width: 60%;
+}
+
+.headind_srch {
+    padding: 10px 29px 10px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.recent_heading h4 {
+    color: #05728f;
+    font-size: 21px;
+    margin: auto;
+}
+
+.srch_bar input {
+    border: 1px solid #cdcdcd;
+    border-width: 0 0 1px 0;
+    width: 80%;
+    padding: 2px 0 4px 6px;
+    background: none;
+}
+
+.srch_bar .input-group-addon button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+    color: #707070;
+    font-size: 18px;
+}
+
+.srch_bar .input-group-addon {
+    margin: 0 0 0 -27px;
+}
+
+.chat_ib h5 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(47, 48, 52, 0.76);
+}
+
+.chat_ib h5 span {
+    font-size: 13px;
+    float: t;
+    left: 51%;
+    position: relative;
+}
+
+.chat_img {
+    float: left;
+    width: 15%;
+}
+
+.chat_img img {
+    width: 52px;
+    height: 52px;
+    border-radius: 40px;
+}
+
+.chat_ib {
+    float: left;
+    padding: 0 0 0 15px;
+    width: 85%;
+}
+
+.chat_people {
+    overflow: hidden;
+    clear: both;
+    cursor: pointer;
+}
+
+.chat_list {
+    margin: 0;
+    padding: 18px 16px 10px;
+}
+
+.inbox_chat {
+    height: 100vh;
+    overflow: auto;
+}
+
+.active_chat {
+    background: #ebebeb;
+}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+
+.received_msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+
+.received_withd_msg p {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.time_date {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+.received_withd_msg {
+    width: 57%;
+}
+
+.mesgs {
+    float: left;
+    padding: 30px 15px 0 25px;
+    width: 60%;
+}
+
+.sent_msg p {
+    background: #05728f none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.outgoing_msg {
+    overflow: hidden;
+    margin: 26px 0 26px;
+}
+
+.chat_date {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #b7babf;
+}
+
+.participent {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* Mixrre / Black */
+    color: #2f3034;
+}
+
+.sent_msg {
+    float: right;
+    width: 46%;
+}
+
+.input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #4c4c4c;
+    font-size: 15px;
+    min-height: 48px;
+    width: 100%;
+}
+
+.type_msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.msg_send_btn {
+    background: #05728f none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 33px;
+}
+
+.messaging {
+    padding: 0 0 50px 0;
+}
+
+.msg_history {
+    height: 516px;
+    overflow-y: auto;
+}
+
+.padding-top-0 {
+    padding-top: 0px !important;
+}
+
+.pt-20px {
+    padding-top: 40px;
+}
+
+.accept-waiting {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #47c55b;
+}
+
+.text-waiting {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #b7babf;
+}
+
+.tr-0 {
+    text-align: end;
+    margin-left: -12px;
+}
+
+.showBtn {
+    display: block;
+    border: 1px solid red;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.hideme {
+    display: none;
+}
+
+.btn_next-paired {
+    background: #3a77f6;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    width: 212px;
+    height: 57px;
+    border: 0;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.container-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+
+.container-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    border-radius: 8px;
+}
+/* Create a custom checkbox */
+
+.checkmark-check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 12px;
+}
+/* On mouse-over, add a grey background color */
+
+.container-check:hover input ~ .checkmark-check {
+    background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+
+.container-check input:checked ~ .checkmark-check {
+    background-color: #2196f3;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark-check:after {
+    content: "";
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+}
+/* Show the checkmark when checked */
+
+.container-check input:checked ~ .checkmark-check:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+
+.container-check .checkmark-check:after {
+    left: 9px;
+    top: 5px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.srt-bar:focus {
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.list_burger {
+    background: #fdfdfd;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+    /*background: red;*/
+    padding: 12px 0;
+}
+
+.list_burger_active {
+    background: #fdfdfd;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+    background: #3f86f7;
+    padding: 12px 0;
+}
+
+.section_list {
+    padding: 20px;
+}
+
+.plus_icon_blue {
+    border: 1px solid #bfc3c7;
+    padding: 6px 6px;
+    border-radius: 30px;
+}
+
+.tickicon {
+    width: 30px;
+}
+
+.burger_model {
+    max-width: 444px;
+}
+
+.bottom_nav_burger {
+    background-image: url("../imgs/nav-bar.png");
+    height: 80px;
+    width: 374px;
+    border: 1px solid white;
+    border-radius: 0 0 15px 15px;
+}
+
+.div_yellow {
+    border: 1px solid transparent;
+    background: #faca43;
+    padding: 12px 18px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 95px;
+    right: 37px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.div_yellow img {
+    width: 27px;
+}
+
+.pos-abt {
+    position: absolute;
+    width: 96%;
+    z-index: 9;
+}
+
+.jion-table-date-1 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    color: #2f3034;
+}
+
+.gatheri-p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2f3034;
+}
+
+.suc-p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #3a77f6;
+}
+
+.btn-end,
+.btn-end1,
+.btn-end2,
+.btn-end3 {
+    background: #ef6553;
+    border-radius: 8px;
+    width: 120px;
+    height: 46px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fdfdfd;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.btn-suc,
+.btn-suc1,
+.btn-suc2,
+.btn-suc3 {
+    background: #47c55b;
+    border-radius: 8px;
+    width: 120px;
+    height: 46px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fdfdfd;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button .btn-suc:focus {
+    outline: none;
+}
+
+.bg-col {
+    background: #e3ecf9;
+    padding: 12px 0px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.text-end-0 {
+    text-align: end;
+}
+
+#customFields-1-ad .checkmark-check {
+    top: -5px;
+}
+
+.btn-see-all a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.floating {
+    margin-bottom: 2rem;
+    background-color: var(--field__background);
+    transition: background-color 0.2s ease;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.floating:hover,
+.floating:focus-within {
+    background-color: var(--field__background--hover);
+}
+
+.floating__input {
+    padding: 1.8rem 1rem 0.6rem;
+    font-size: 1rem;
+    border-bottom: 0.1rem solid var(--input__border);
+    transition: border-color 0.2s ease;
+    caret-color: var(--color__accent);
+}
+
+.floating:hover .floating__input {
+    border-color: var(--input__border--hover);
+}
+
+.floating__input::placeholder {
+    color: rgba(0, 0, 0, 0);
+}
+
+.floating__label {
+    display: block;
+    position: relative;
+    max-height: 0;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.floating__label::before {
+    color: var(--label__color);
+    content: attr(data-content);
+    display: inline-block;
+    filter: blur(0);
+    backface-visibility: hidden;
+    transform-origin: left top;
+    transition: transform 0.2s ease;
+    left: 1rem;
+    position: relative;
+}
+
+.floating__label::after {
+    bottom: 1rem;
+    content: "";
+    height: 0.1rem;
+    position: absolute;
+    transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+    opacity: 0;
+    left: 0;
+    top: 100%;
+    margin-top: -0.1rem;
+    transform: scale3d(0, 1, 1);
+    width: 100%;
+    background-color: var(--color__accent);
+}
+
+.floating__input:focus + .floating__label::after {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+}
+
+.floating__input:placeholder-shown + .floating__label::before {
+    transform: translate3d(0, -2.2rem, 0) scale3d(1, 1, 1);
+}
+
+.floating__label::before,
+.floating__input:focus + .floating__label::before {
+    transform: translate3d(0, -3.12rem, 0) scale3d(0.82, 0.82, 1);
+}
+
+.floating__input:focus + .floating__label::before {
+    color: var(--color__accent);
+}
+/* ---------------------------------------------- */
+/* --  Codepen styles & resets - not required  -- */
+/* ---------------------------------------------- */
+
+fieldset {
+    padding: 3rem 2rem 1.5rem;
+}
+
+legend {
+    padding: 0 0.5rem;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+.hidden--visually {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.input-bg-preview-whit {
+    background: #fdfdfd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.place-style::placeholder {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #2f3034;
+}
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#sortable li {
+    width: 100%;
+}
+
+#sortable li span {
+    position: absolute;
+    margin-left: -1.3em;
+}
+
+.list-group.vertical-steps {
+    padding-left: 32px;
+    margin-top: 29px;
+}
+
+.list-group.vertical-steps .list-group-item {
+    border: none;
+    border-left: 3px solid #ece5dd;
+    box-sizing: border-box;
+    border-radius: 0;
+    counter-increment: step-counter;
+    padding-left: 8px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+.list-group.vertical-steps .list-group-item.active {
+    background-color: transparent;
+    color: inherit;
+}
+
+.list-group.vertical-steps .list-group-item:last-child {
+    border-left: 3px solid transparent;
+    padding-bottom: 0;
+}
+
+.list-group.vertical-steps .list-group-item::before {
+    border-radius: 50%;
+    background-color: #ece5dd;
+    color: #555;
+    content: counter(step-counter);
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 25px;
+    margin-left: -33px;
+    text-align: center;
+    width: 50px;
+    padding: 12px 0;
+}
+
+.list-group.vertical-steps .list-group-item span,
+.list-group.vertical-steps .list-group-item a {
+    display: block;
+    overflow: hidden;
+    padding-top: 2px;
+}
+/*Active/ Completed States*/
+
+.list-group.vertical-steps .list-group-item.active::before {
+    background-color: #0052c2;
+    color: #fff;
+}
+
+.list-group.vertical-steps .list-group-item.completed {
+    border-left: 3px solid #0052c2;
+}
+
+.list-group.vertical-steps .list-group-item.completed::before {
+    background-color: #0052c2;
+    color: #fff;
+}
+
+.list-group.vertical-steps .list-group-item.completed:last-child {
+    border-left: 3px solid transparent;
+}
+
+.div_space {
+    border: 2px solid #3a77f6;
+    padding: 27px;
+    border-radius: 50%;
+    margin: 0 0 0 -19px;
+    width: 20px;
+    margin-left: -54px;
+    margin-top: -4px;
+    float: left;
+}
+
+.img_back_model {
+    /* background-image: url(../imgs/beer-glass.jpg); */
+    height: 283px;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 50px 50px;
+    background-size: cover;
+}
+
+.my_container {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.current_back_img {
+    background-image: url(../imgs/bg_img.jpg);
+    height: 60px;
+    width: 332px;
+    background-repeat: no-repeat;
+    margin: -45px 0 0 24px;
+    border-radius: 20px 20px 0 0;
+}
+
+.white_sec {
+    border: 1px solid transparent;
+    margin: 0 0 0 27px;
+    width: 328px;
+    padding: 7px 20px;
+    border-radius: 0 0 20px 20px;
+    background: white;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.04),
+        0px 8px 16px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+        0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.img_mr {
+    margin: 0 0 0 -28px;
+}
+
+.bottom_nav_model {
+    background-image: url(../imgs/bg_img.jpg);
+    height: 80px;
+    width: 442px;
+    border: 1px solid white;
+    border-radius: 0 0 15px 15px;
+}
+
+.img_mobile_white {
+    width: 100%;
+}
+
+.dataTables_wrapper thead th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.dataTables_wrapper thead th:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.list-online {
+    float: left;
+    width: 289px;
+    padding-left: 12px;
+}
+
+.img-m,
+.img_mr {
+    height: 45px;
+    border: 2px solid #3a77f6;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.fony-bol {
+    font-weight: 700;
+}
+
+.loin {
+    line-height: 19px;
+}
+
+.login-inputs .material-form-field {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    color: #000000;
+    padding: 12px 0 0px 0;
+    height: 47px;
+}
+
+.login-inputs .material-form-field .material-form-field-label {
+    position: absolute;
+    display: block;
+    top: 16px;
+    left: 0px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    pointer-events: none;
+    cursor: text;
+}
+
+.login-inputs .material-form-field input {
+    padding: 0px 0 -1px 0;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 14px;
+    color: #7e8084;
+}
+
+.login-inputs .input-bg-preview {
+    border-radius: 8px;
+    width: 100%;
+    background: #ededed;
+    padding: 0px 18px;
+}
+
+.login-inputs .material-form-field input:valid ~ .material-form-field-label,
+.material-form-field input:focus ~ .material-form-field-label {
+    top: 1px;
+    font-size: 12px;
+}
+
+.login-inputs .material-form-field .material-form-field-label {
+    position: absolute;
+    display: block;
+    top: 16px;
+    left: 0px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    pointer-events: none;
+    cursor: text;
+}
+
+#example_next a {
+    background: #3a77f6;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+}
+
+#example_previous a {
+    background: #dcdddf;
+    border-radius: 8px;
+    color: #2f3034;
+    font-size: 12px;
+}
+
+input:invalid {
+    box-shadow: none;
+}
+
+.guestDescription:invalid {
+    box-shadow: none;
+}
+
+#event-description:invalid {
+    box-shadow: none;
+}
+
+.page-item.active .page-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.email-input input:focus ~ .floating-label,
+.email-input input:not(:focus):valid ~ .floating-label {
+    top: 98px;
+    bottom: 89%;
+    left: 18px;
+    opacity: 1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 12px;
+    color: #7e8084;
+}
+
+.email-input .inputText {
+    font-size: 14px;
+    width: 100%;
+    height: 47px;
+    padding-left: 4px;
+    padding-top: 18px;
+}
+
+.email-input .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 18px;
+    top: 109px;
+    transition: 0.2s ease all;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 14px;
+    color: #7e8084;
+}
+
+.email-input-login input:focus ~ .floating-label,
+.email-input-login input:not(:focus):valid ~ .floating-label {
+    top: 122px;
+    bottom: 89%;
+    left: 18px;
+    opacity: 1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 12px;
+    color: #7e8084;
+}
+
+.email-input-login .inputText {
+    font-size: 14px;
+    width: 100%;
+    height: 47px;
+    padding-left: 4px;
+    padding-top: 18px;
+}
+
+.email-input-login .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 18px;
+    top: 137px;
+    transition: 0.2s ease all;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 14px;
+    color: #7e8084;
+}
+
+.email-input-forgot input:focus ~ .floating-label,
+.email-input-forgot input:not(:focus):valid ~ .floating-label {
+    top: 134px;
+    bottom: 89%;
+    left: 18px;
+    opacity: 1;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 12px;
+    color: #7e8084;
+}
+
+.email-input-forgot .inputText {
+    font-size: 14px;
+    width: 100%;
+    height: 47px;
+    padding-left: 4px;
+    padding-top: 18px;
+}
+
+.email-input-forgot .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 18px;
+    top: 146px;
+    transition: 0.2s ease all;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 14px;
+    color: #7e8084;
+}
+/*sep 28*/
+
+.field {
+    display: flex;
+    flex-flow: column-reverse;
+    height: 47px;
+}
+/**
+                  * Add a transition to the label and input.
+                  * I'm not even sure that touch-action: manipulation works on
+                  * inputs, but hey, it's new and cool and could remove the
+                  * pesky delay.
+                  */
+
+.field label,
+.field input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+    padding-left: 0px;
+    color: #7e8084;
+    font-family: Nunito Sans;
+    font-style: normal;
+}
+
+.field input:focus {
+    outline: 0;
+}
+
+.field label {
+    padding: 5px;
+    x-letter-spacing: 0.05em;
+    transform: translate(0, 2rem) scale(1);
+}
+/**
+                  * Translate down and scale the label up to cover the placeholder,
+                  * when following an input (with placeholder-shown support).
+                  * Also make sure the label is only on one row, at max 2/3rds of the
+                  * field—to make sure it scales properly and doesn't wrap.
+                  */
+
+.field input:placeholder-shown + label {
+    cursor: text;
+    position: relative;
+    top: -7px;
+    font-size: 14px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 14px;
+    color: #7e8084;
+}
+
+/**
+                  * By default, the placeholder should be transparent. Also, it should
+                  * inherit the transition.
+                  */
+/**
+                  * Show the placeholder when the input is focused.
+                  */
+
+.field ::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+    color: #7e8084;
+    font-family: Nunito Sans;
+    font-style: normal;
+    visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.field ::-moz-placeholder {
+    opacity: 0;
+    transition: inherit;
+    color: #7e8084;
+    font-family: Nunito Sans;
+    font-style: normal;
+    visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.field :-ms-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+    color: #7e8084;
+    font-family: Nunito Sans;
+    font-style: normal;
+    visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.field :-moz-placeholder {
+    opacity: 0;
+    transition: inherit;
+    color: #7e8084;
+    font-family: Nunito Sans;
+    font-style: normal;
+    visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.field input:focus::-webkit-input-placeholder {
+    opacity: 1;
+}
+/**
+                  * When the element is focused, remove the label transform.
+                  * Also, do this when the placeholder is not shown, i.e. when
+                  * there's something in the input at all.
+                  */
+
+.field input:not(:placeholder-shown) + label,
+.field input:focus + label {
+    cursor: pointer;
+    position: relative;
+    top: -21px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 12px;
+    color: #7e8084;
+    padding-left: 0px;
+}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+
+    .field input:placeholder-shown + label{
+        top: -25px;
+    }
+    .field input:not(:placeholder-shown) + label,
+    .field input:focus + label {
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 12px;
+    color: #7e8084;
+    padding-left: 0px;
+}
+}}
+/* Preloader */
+/* Preloader */
+
+.ctn-preloader {
+    align-items: center;
+    cursor: none;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+}
+
+.ctn-preloader .animation-preloader {
+    position: absolute;
+    z-index: 999;
+}
+/* Spinner cargando */
+
+.ctn-preloader .animation-preloader .spinner {
+    animation: spinner 1s infinite linear;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-top-color: #000000;
+    /* No se identa por orden alfabetico para que no lo sobre-escriba */
+    height: 9em;
+    margin: 0 auto 3.5em auto;
+    width: 9em;
+}
+/* Texto cargando */
+
+.ctn-preloader .animation-preloader .txt-loading {
+    font: bold 5em "Montserrat", sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
+    animation: letters-loading 4s infinite;
+    color: #000000;
+    content: attr(data-text-preloader);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: rotateY(-90deg);
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading {
+    color: rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.ctn-preloader
+    .animation-preloader
+    .txt-loading
+    .letters-loading:nth-child(2):before {
+    animation-delay: 0.2s;
+}
+
+.ctn-preloader
+    .animation-preloader
+    .txt-loading
+    .letters-loading:nth-child(3):before {
+    animation-delay: 0.4s;
+}
+
+.ctn-preloader
+    .animation-preloader
+    .txt-loading
+    .letters-loading:nth-child(4):before {
+    animation-delay: 0.6s;
+}
+
+.ctn-preloader
+    .animation-preloader
+    .txt-loading
+    .letters-loading:nth-child(5):before {
+    animation-delay: 0.8s;
+}
+
+.ctn-preloader
+    .animation-preloader
+    .txt-loading
+    .letters-loading:nth-child(6):before {
+    animation-delay: 1s;
+}
+
+.ctn-preloader
+    .animation-preloader
+    .txt-loading
+    .letters-loading:nth-child(7):before {
+    animation-delay: 1.2s;
+}
+
+.ctn-preloader .loader-section {
+    background-color: #ffffff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: calc(50% + 1px);
+}
+
+.ctn-preloader .loader-section.section-left {
+    left: 0;
+}
+
+.ctn-preloader .loader-section.section-right {
+    right: 0;
+}
+/* Efecto de fade en la animación de cargando */
+
+.loaded .animation-preloader {
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+/* Efecto de cortina */
+
+.loaded .loader-section.section-left {
+    transform: translateX(-101%);
+    transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
+
+.loaded .loader-section.section-right {
+    transform: translateX(101%);
+    transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
+
+.select-bosmaid {
+    background-color: #e0e9fc;
+    border: none;
+}
+
+.locationTabs button{
+    width: 155px;
+    height: 57px;
+    border: 1px solid #3A77F6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: transparent;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.locationTabs .active button{
+    width: 238px !important;
+    height: 57px;
+    background: #3A77F6 !important;
+    border-radius: 8px;
+    color: white;
+}
+.locationTabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background: transparent;
+    padding: 0px;
+    border: 0px solid;
+}
+.locationTabs .nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+.locationTabs .nav-tabs .nav-link{
+    background: transparent;
+    padding: 0px;
+    border: 0px solid;
+}
+.drag{
+        position: absolute;
+    right: 28px;
+    top: 30px;
+    z-index: 1;
+}
+.drag:hover{
+    cursor: move;
+}
+.changeCover{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.rounded-5{
+    border-radius: 15px;
+}
+.mtNegative{
+    margin-top: -50px;
+}
+.eventAlertMain img{
+    width: 18px;
+    height: 18px;
+}
+.eventAlertMain h5{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.accountSettingSubmit{
+    font-weight: 100;
+    width: 150px;
+    font-size: 14px;
+    padding: 12px;
+}
+
+/***************************
+
+ Toggle Switch Start
+
+****************************/
+
+.switch {
+  position: relative;
+  display: inline-block;
+      width: 54px;
+    height: 27px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/***************************
+
+ Toggle Switch End
+
+****************************/
+
+/***************************
+
+ Notification Bar Start
+
+****************************/
+.top-text-block {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: inherit !important;
+  position: relative;
+}
+.top-text-block.new{
+    background: #f1f4f9;
+}
+.top-text-block:hover{
+    text-decoration: none;
+}
+.top-text-block.unread {
+  background: #ffc;
+}
+.top-text-block .top-text-light {
+  color: #999;
+  font-size: 0.8em;
+}
+.top-head-dropdown .dropdown-menu {
+  width: 350px;
+  height: 400px;
+  left: 50px !important;
+  border-radius: 10px;
+  top: 30px !important;
+  border: 0px solid;
+}
+.top-head-dropdown .dropdown-menu:before {
+    position: absolute;
+    top: -14px;
+    left: 164px;
+    display: inline-block;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #faca43;
+    border-left: 15px solid transparent;
+    border-bottom-color: rgb(250 202 67);
+    content: '';
+}
+
+.top-head-dropdown .dropdown-menu:after {
+      position: absolute;
+    top: -14px;
+    left: 164px;
+    display: inline-block;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #faca43;
+    border-left: 15px solid transparent;
+    content: '';
+}
+.top-head-dropdown{
+    width: 50px;
+    height: 50px;
+}
+.top-head-dropdown li:last-child .top-text-block {
+  border-bottom: 0;
+}
+.topbar-align-center {
+  text-align: center;
+}
+.loader-topbar {
+  margin: 5px auto;
+  border: 3px solid #ddd;
+  border-radius: 50%;
+  border-top: 3px solid #666;
+  width: 22px;
+  height: 22px;
+  -webkit-animation: spin-topbar 1s linear infinite;
+  animation: spin-topbar 1s linear infinite;
+}
+@-webkit-keyframes spin-topbar {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin-topbar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/***************************
+
+ Notification Bar End
+
+****************************/
+
+/* Animación del preloader */
+
+@keyframes spinner {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+/* Animación de las letras cargando del preloader */
+
+@keyframes letters-loading {
+    0%,
+    75%,
+    100% {
+        opacity: 0;
+        transform: rotateY(-90deg);
+    }
+    25%,
+    50% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+}
+/* Tamaño de portatil hacia atras (portatil, tablet, celular) */
+
+@media screen and (max-width: 767px) {
+    /* Preloader */
+    /* Spinner cargando */
+    .ctn-preloader .animation-preloader .spinner {
+        height: 8em;
+        width: 8em;
+    }
+    /* Texto cargando */
+    .ctn-preloader .animation-preloader .txt-loading {
+        font: bold 3.5em "Montserrat", sans-serif;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* Prelaoder */
+    /* Spinner cargando */
+    .ctn-preloader .animation-preloader .spinner {
+        height: 7em;
+        width: 7em;
+    }
+    /* Texto cargando */
+    .ctn-preloader .animation-preloader .txt-loading {
+        font: bold 2em "Montserrat", sans-serif;
+    }
+}
+.bgTransparent{
+    background: transparent;
+}
+.bgTransparent:focus{
+    box-shadow: none;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-10{
+    font-size: 10px;
+}
+.iconNotification{
+    height: 30px;
+    width: 30px;
+}
+
+.notifMain::-webkit-scrollbar-track {
+    -webkit-box-shadow: transparent;
+    background-color: transparent;
+    border-radius: 12px;
+    scrollbar-color: transparent transparent;
+    display: none;
+}
+
+.notifMain::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+    border-radius: 12px;
+    scrollbar-color: transparent transparent;
+    display: none;
+}
+
+.notifMain::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    scrollbar-color: transparent transparent;
+    display: none;
+    border-radius: 12px;
+}
+.subMenuGuest{
+    display: none;
+}
+.guestCencel button{
+
+width: 149px;
+height: 48px;
+border: 1px solid #B7BABF;
+box-sizing: border-box;
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+color: #2F3034;
+cursor:pointer;
+}
+.guestSave button{
+width: 149px;
+height: 48px;
+background: #47C55B;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 8px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+color: #FDFDFD;
+border: none;
+cursor:pointer;
+}
+.gj-datepicker-bootstrap [role=right-icon] button .gj-icon, .gj-datepicker-bootstrap [role=right-icon] button .material-icons {
+    position: absolute;
+    font-size: 35px !important;
+    top: -7px !important;
+    left: 9px;
+}
+.input-group-append button{
+    border: none !important;
+}
+.input-group-append button:active{
+    background: transparent  !important;
+}
+.input-group-append button:focus{
+    box-shadow: none !important;
+}
+.input-group-append button:hover{
+    background: transparent !important;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: transparent !important;
+    opacity: 1;
+}
+.gj-timepicker-bootstrap [role=right-icon] button .gj-icon, .gj-timepicker-bootstrap [role=right-icon] button .material-icons {
+    position: absolute;
+    font-size: 35px !important;
+    top: -7px !important;
+    left: 9px;
+}
+.input-bg-preview.calendar input{
+    border: none !important;
+}
